@@ -15,6 +15,7 @@ train/y_train.txt - activity for each measurement in the train set
 test/y_test.txt - activity for each measurement in the test set
 
 #Analysis Script
+
 After reading in all the necessary data, the analysis was done as follows:
 
 First, all the datasets related to test and train were respectively merged using cbind to create test and train datasets which were then merged using rbind by stacking one over the other.
